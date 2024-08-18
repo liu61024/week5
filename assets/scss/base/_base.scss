@@ -1,0 +1,34 @@
+body{
+    font-family: Lato, "ROBOTO MONO";
+    line-height: 1.5;
+    //通常字體通一先設定
+}
+
+a{
+    text-decoration: none;
+    //取消連結底線
+    display: inline-block;
+    //以inline的方式呈現，但同時擁有block的屬性
+    color: inherit;
+    //因為 inherit 是繼承，所以會套用到父層設定
+}
+
+code{
+    font-family: "ROBOTO MONO";
+    color: $success;
+    background-color: $gray-100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+    
